@@ -1,0 +1,8 @@
+package lesson9.homework;
+
+public class MyBinarySearch {
+
+    public static int binarySearch(int[] ints, int key) {
+        int left = 0;
+        int right = ints.length - 1;
+        int mid;
