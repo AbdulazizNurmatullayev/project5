@@ -1,0 +1,17 @@
+package lesson9.homework;
+import java.util.Arrays;
+public class Test {
+    public static void main(String[] args) {
+
+        int[] nums = {87, 23, 5, 2, 9, 14, 45, 8, 76, 47, 4};
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
+        int index = MyBinarySearch.binarySearch(nums, 45);
+        if (index != -1) {
+            System.out.println("index of key: " + index);
+        }
+    }
+}
+
+
+            
